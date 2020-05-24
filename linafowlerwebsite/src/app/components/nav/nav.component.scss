@@ -1,6 +1,6 @@
 nav {
   height: 10vh;
-  background: transparent;
+  background-color: #FC4471;
   position: relative;
 }
 
@@ -43,27 +43,6 @@ nav {
   justify-content: space-around;
 }
 
-.line1, .line2, .line3 {
-  width: 35px;
-  height: 4px;
-  background: #707070;
-  margin: 6px 0;
-  transition: 0.4s ease;
-}
-
-.change .line1 {
-    transform: rotate(-45deg) translate(-6px, 6px);
-    background: white;
-}
-
-.change .line3 {
-  transform: rotate(45deg) translate(-8px, -8px);
-  background: white;
-}
-.change .line2 {
-  opacity: 0;
-}
-
 .nav-links.open {
   clip-path: circle(2500px at 90% -10%);
   -webkit-clip-path: circle(2800px at 90% -10%);
@@ -83,4 +62,40 @@ nav {
 }
 li.fade {
   opacity: 1 !important;
+}
+
+// Animation part
+.ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+.hamRotate180.active {
+  transform: rotate(180deg);
+}
+.line {
+  fill:none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke:#fff;
+  stroke-width:5.5;
+  stroke-linecap:round;
+}
+.ham1 .top {
+  stroke-dasharray: 40 139;
+}
+.ham1 .bottom {
+  stroke-dasharray: 40 180;
+}
+.ham1.active .top {
+  stroke-dashoffset: -98px;
+}
+.ham1.active .bottom {
+  stroke-dashoffset: -138px;
 }

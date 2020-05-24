@@ -21,9 +21,6 @@ export class NavComponent implements OnInit {
       });
     });
 
-    function menuTransition(X) {
-      X.classList.toggle("change");
-    }
   }
 
 }
