@@ -1,14 +1,17 @@
 import { Component, OnInit } from '@angular/core';
+import { ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-landing',
   templateUrl: './landing.component.html',
   styleUrls: ['./landing.component.scss']
 })
-export class LandingComponent implements OnInit {
+export class LandingComponent {
 
-  constructor() { }
-
+  constructor(private el: ElementRef) { }
+  scroll(el: HTMLElement) {
+    el.scrollIntoView();
+  }
   ngOnInit(): void {
     var TxtRotate = function(el, toRotate, period) {
       this.toRotate = toRotate;
@@ -19,6 +22,8 @@ export class LandingComponent implements OnInit {
       this.tick();
       this.isDeleting = false;
     };
+
+
 
     TxtRotate.prototype.tick = function() {
       var i = this.loopNum % this.toRotate.length;
