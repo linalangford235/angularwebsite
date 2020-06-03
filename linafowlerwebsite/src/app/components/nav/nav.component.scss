@@ -1,5 +1,5 @@
 nav {
-  height: 10vh;
+  height: 7vh;
   background-color: #FC4471;
   position: relative;
 }
@@ -84,18 +84,18 @@ li.fade {
   fill:none;
   transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
   stroke:#fff;
-  stroke-width:5.5;
+  stroke-width:5;
   stroke-linecap:round;
 }
-.ham1 .top {
+.ham-icon .top {
   stroke-dasharray: 40 139;
 }
-.ham1 .bottom {
+.ham-icon .bottom {
   stroke-dasharray: 40 180;
 }
-.ham1.active .top {
+.ham-icon.active .top {
   stroke-dashoffset: -98px;
 }
-.ham1.active .bottom {
+.ham-icon.active .bottom {
   stroke-dashoffset: -138px;
 }

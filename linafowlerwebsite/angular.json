@@ -28,7 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "./node_modules/font-awesome/scss/font-awesome.scss",
+              "./node_modules/aos/dist/aos.css"
             ],
             "scripts": [
               "./node_modules/jquery/jquery.min.js",
