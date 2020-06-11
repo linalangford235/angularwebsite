@@ -1,0 +1,42 @@
+.portfolio-section {
+  background-color: #EEEEEE;
+}
+
+.portfolio-heading {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  font-size: 50px;
+  text-align: left;
+  font-family: 'Merienda One', cursive;
+}
+.portfolio-head {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+
+.portfolio-para {
+  color: white;
+  font-size: 20px;
+}
+
+.read-more {
+  color: white;
+  font-size: 20px;
+  border: solid 2px white;
+  border-radius: 30px;
+  padding: 13px 29px 15px;
+}
+
+.read-more:hover {
+  transform: scale(0.7);
+  text-decoration: none;
+}
+
+.first-portfolio {
+  background-color: #FC4471;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+
