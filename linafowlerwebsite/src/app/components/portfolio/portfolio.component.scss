@@ -1,5 +1,11 @@
 .portfolio-section {
-  background-color: #EEEEEE;
+  background-image: linear-gradient(135deg, #2d2d2d 0%, #000000 100%);
+    -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
+    padding: 15rem 0 10rem 0;
+    margin-top: -15rem;
+    margin-bottom: -1px;
+    color: #fff;
 }
 
 .portfolio-heading {
@@ -8,6 +14,7 @@
   font-size: 50px;
   text-align: left;
   font-family: 'Merienda One', cursive;
+  color: #fff;
 }
 .portfolio-head {
   color: white;
@@ -18,25 +25,35 @@
 .portfolio-para {
   color: white;
   font-size: 20px;
+  padding-bottom: 20px;
 }
 
-.read-more {
+.case-study-btn {
   color: white;
   font-size: 20px;
   border: solid 2px white;
   border-radius: 30px;
   padding: 13px 29px 15px;
+  margin-bottom: 25px;
+  background: transparent;
 }
 
-.read-more:hover {
-  transform: scale(0.7);
+.case-study-btn:hover {
+  background-image: linear-gradient(135deg, #02aab0 0%, #00cdac 100%);
   text-decoration: none;
+  color: white;
+  border: solid 2px white ;
+  cursor: pointer;
 }
 
-.first-portfolio {
-  background-color: #FC4471;
-  border-radius: 5px;
-  padding: 20px;
+.portfolio-img:hover {
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+}
+.portfolio-img {
+  width: 100%;
 }
 
+.row {
+  padding-top: 10%;
+}
 

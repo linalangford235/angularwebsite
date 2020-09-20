@@ -68,7 +68,7 @@ export class LandingComponent {
 
       var css = document.createElement("style");
       css.type = "text/css";
-      css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #FE9B00 }";
+      css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #02aab0 }";
       document.body.appendChild(css);
     };
   }

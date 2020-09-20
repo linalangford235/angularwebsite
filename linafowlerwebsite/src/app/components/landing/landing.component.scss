@@ -1,7 +1,9 @@
+
+
 .intro {
   color: #707070;
   font-family: 'Poppins', sans-serif;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .typing {
@@ -12,41 +14,30 @@
 }
 
 .name {
-  color: #FC4471;
-  font-size: 90px;
-  font-family: 'Merienda One', cursive;
+  background-image: linear-gradient(135deg, #2d2d2d 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  font-size: 100px;
+  font-family: "Merienda One", cursive;
   -webkit-transition: color 1s;
   transition: color 1s;
 }
 
-.name:hover {
-  color: #FE9B00;
-  cursor: pointer;
-}
-
-.about-me-btn {
-  color: #707070;
-}
-
-.about-me-btn:hover {
-  background-color: #FE9B00;
-}
-
 .background-img {
-  background: url(../../../assets/img/colors2.jpg);
-  background-attachment: fixed ;
+  background-image: url("../../../assets/img/backgroundimg.svg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   height: 100vh;
+
 }
 
 .landing {
-height: 80vh;
+height: 75vh;
 display: flex;
 justify-content: center;
 align-items: left;
-margin-left: 17%;
+margin-left: 20%;
 }
 
 .landing {
@@ -62,21 +53,22 @@ margin-left: 17%;
 
 .fab:hover {
   transform: scale(1.3);
-  color: #FE9B00;
+  color: #02aab0;
 }
+
+
 
 .hero__scroll {
   position: absolute;
-
   width: 200px;
   margin: auto;
   display: block;
   cursor: pointer;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   left: 0;
   right: 0;
   text-align: center;
-  color: #707070;
+  color: #fff;
   font-family: "Poppins", sans-serif;
 }
 
@@ -85,7 +77,6 @@ margin-left: 17%;
     display: block;
     -webkit-animation: pulse 2s infinite;
     animation: pulse 2s infinite;
-    color: #FF4081;
     font-size: 40px;
 
   }

@@ -1,0 +1,28 @@
+.footer {
+  background-color: #fff;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.fab {
+  color: #2d2d2d;
+  font-size: 35px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.fab:hover {
+  transform: scale(1.3);
+  color: #02aab0;
+}
+
+.copywrite {
+  color: #2d2d2d;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 25px;
+}
