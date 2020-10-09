@@ -1,0 +1,88 @@
+.portfolio-section {
+  background-image: url("../../../assets/img/workbackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio-heading {
+  padding-top: 7%;
+  padding-bottom: 2%;
+  font-size: 4rem;
+  text-align: left;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
+.portfolio-head {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+.business {
+  font-size: 1.5rem;
+}
+
+.portfolio-para {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.work-heading {
+  font-family: 'Oswald', sans-serif;
+  font-size: 3rem;
+  padding-bottom: 10px;
+}
+
+.work-para {
+  font-size: 1.15rem;
+  padding-bottom: 10px;
+}
+
+.case-study-btn {
+  color: black;
+  font-size: 20px;
+  border: solid 2px black;
+  border-radius: 30px;
+  padding: 13px 29px 15px;
+  margin-bottom: 25px;
+  background: none;
+  cursor: pointer;
+}
+
+.case-study-btn:hover {
+  background-color:  #5583a6;
+  text-decoration: none;
+  color: white;
+  border: solid 2px #5583a6 ;
+  cursor: pointer;
+}
+
+.portfolio-img:hover {
+  transform: perspective(1000px) rotateX(0deg) rotateY(3deg) scale3d(1, 1, 1);
+}
+.portfolio-img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.row {
+  padding-top: 10%;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration:1.5s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

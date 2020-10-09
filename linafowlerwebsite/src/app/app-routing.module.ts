@@ -1,19 +1,26 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LandingComponent } from './components/landing/landing.component';
+import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
-import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { WorkComponent } from './components/work/work.component';
 import { PlayComponent } from './components/play/play.component';
+import { DeployComponent } from './components/deploy/deploy.component';
+
 
 
 const routes: Routes = [
-  { path: 'home', component: LandingComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full'},
+  { path: 'home', component: HomeComponent },
+  { path: 'work', component: WorkComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'deploy', component: DeployComponent },
   { path: 'play', component: PlayComponent },
+  { path: '**', component: HomeComponent },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {useHash: true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export  const routingComponents = [LandingComponent, AboutComponent, PortfolioComponent, PlayComponent]
+export  const routingComponents = [HomeComponent, AboutComponent, WorkComponent, PlayComponent, DeployComponent,]
