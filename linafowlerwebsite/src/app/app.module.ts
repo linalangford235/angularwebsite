@@ -9,6 +9,8 @@ import { WhatidoComponent } from './components/what-i-do/whatido.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { DeployComponent } from './components/deploy/deploy.component';
+import { ServerMonitorComponent } from './components/server-monitor/server-monitor.component';
+import { SibComponent } from './components/sib/sib.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { DeployComponent } from './components/deploy/deploy.component';
     FooterComponent,
     NavbarComponent,
     DeployComponent,
+    ServerMonitorComponent,
+    SibComponent,
   ],
   imports: [
     BrowserModule,

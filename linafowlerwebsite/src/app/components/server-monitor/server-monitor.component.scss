@@ -1,0 +1,124 @@
+html {
+  overflow-x: hidden
+  }
+
+.deploy-cs {
+  background-color: #1C1D1E;
+}
+
+.deploy-head {
+  text-align:center;
+  font-size: 4rem;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+  color: #f2f2f2;
+}
+
+.problem {
+  color: #f2f2f2;
+  padding-bottom: 1.5rem;
+
+}
+
+.disclaimer {
+  color: grey;
+  padding: 2rem 2rem 10rem 2rem;
+}
+
+.my-role-section {
+  padding: 10rem;
+}
+
+.my-role-head {
+  font-size: 3rem;
+  font-family: 'Oswald', sans-serif;
+  padding-bottom: 2rem;
+}
+
+.my-role-para {
+  font-size: 1.75rem;
+}
+.process-section {
+  background-color: #1C1D1E;
+  color: #f2f2f2;
+  padding: 5rem;
+}
+
+.fas {
+  font-size: 45px;
+  padding-top: 25px;
+}
+
+.card {
+  color: #1C1D1E;
+  margin-left: 10px;
+  width: 13rem;
+
+}
+
+.process-head {
+  font-size: 3rem;
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 2rem;
+}
+
+.ideation {
+  background-color: #1C1D1E;
+  color: #f2f2f2;
+}
+.persona-img {
+  width: 500px;
+}
+.wireframes {
+  background-color: #1C1D1E;
+}
+
+.img {
+  margin-bottom: 4rem;
+}
+
+.ideation-container {
+  padding: 10rem 10rem 2rem 10rem;
+}
+
+@media screen and (max-width: 480px) {
+  .problem {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    font-size: 20px;
+  }
+  .my-role-section {
+    padding: 3rem;
+  }
+  .card {
+    margin-bottom: 2rem;
+    width: 20rem;
+    margin-left: 0;
+  }
+  .ideation-container {
+    padding: 3rem;
+  }
+  .my-role-para {
+    font-size: 20px;
+  }
+  .deploy-head {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .my-role-section {
+    padding: 2.5rem;
+  }
+  .ideation-container {
+    padding: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .card {
+    margin-top: 1rem;
+  }
+}
