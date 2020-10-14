@@ -69,3 +69,26 @@
 .row {
   padding-top: 10%;
 }
+
+@media screen and (max-width: 480px) {
+ .col-padding {
+    margin: 2rem;
+ }
+ .portfolio-heading {
+   padding-top: 15%;
+   text-align: center;
+ }
+ .col-sm-12 {
+  padding: 20px;
+ }
+ .work-para {
+   margin-bottom: 2rem;
+ }
+ .work-heading {
+   font-size: 35px;
+ }
+ .business {
+   font-size: 20px;
+ }
+
+}

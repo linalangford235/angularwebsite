@@ -69,3 +69,18 @@ margin-left: 20%;
   margin: 5px;
 }
 
+
+@media screen and (max-width: 480px) {
+  .name {
+    font-size: 100px;
+  }
+  .intro {
+    font-size: 20px;
+  }
+  .typing {
+    font-size: 25px;
+  }
+  .landing {
+    margin-left: 15%
+  }
+}
