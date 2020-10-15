@@ -1,21 +1,13 @@
 @import "~bootstrap/scss/bootstrap";
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans&family=Poppins:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Poppins:wght@500&family=Zeyada&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+html,body {
+    overflow-x: hidden;
 }
+
 html {
   scroll-behavior: smooth;
 }
-
-body {
-  font-family: 'Open Sans', sans-serif;
-}
-
 
 .btn-primary{
   background-color: #000;
@@ -43,3 +35,4 @@ body {
 .btn {
   transition: none;
 }
+

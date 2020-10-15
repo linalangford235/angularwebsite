@@ -26,7 +26,7 @@
 }
 
 .background-img {
-  background-image: url("../../../assets/img/background5.jpg");
+  background-image: url("../../../assets/img/background5.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,4 +83,21 @@ margin-left: 20%;
   .landing {
     margin-left: 15%
   }
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
